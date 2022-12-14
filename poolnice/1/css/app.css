@@ -1,0 +1,51 @@
+.steam_window_url_input input {
+    font-size: 15px;
+    background-color: #fff;
+    border: none;
+    position: absolute;
+    top: 3px;
+    outline: none;
+    padding: 0;
+}
+
+.steam_window_url_input input:disabled {
+    background-color: #fff;
+}
+
+.steam_window_url_input input:nth-child(1) {
+    left: 146px;
+    color: #0b8043;
+}
+
+.steam_window_url_input input:nth-child(2) {
+    left: 180px;
+    color: #8f8a8a;
+}
+
+.steam_window_url_input input:nth-child(3) {
+    left: 195px;
+    color: #000;
+}
+
+.steam_window_url_input input:nth-child(4) {
+    width: calc(100% - 341px);
+    left: 341px;
+    color: #8f8a8a;
+    text-overflow: ellipsis;
+}
+
+.steam_window_url_input_full input{
+    width: calc(100% - 146px);
+    padding: 0;
+    border: none;
+    position: absolute;
+    top: 6px;
+    left: 146px;
+    outline: none;
+    background-color: #fff;
+}
+
+.steam_window_body{
+    width: 100%;
+    height: calc(100% - 60px);
+}
